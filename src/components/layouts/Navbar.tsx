@@ -5,8 +5,8 @@ import { UserButton } from "@clerk/nextjs";
 import { Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-import Link from "next/link";
 import MobileSidebar from "@/components/modules/MobileSidebar";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -15,7 +15,7 @@ const Navbar = () => {
         <MobileSidebar />
         <Link href={"/"}>
           <h1 className="hidden md:block text-xl md:text-3xl font-bold text-primary">
-            Hospivital-AI
+            Medi-AI
           </h1>
         </Link>
       </div>
