@@ -13,6 +13,7 @@ const Sidebar = () => {
 
   // ============= Navigation Function ===============
   const onNavigate = (url: string, pro: boolean) => {
+    console.log(pro);
     return router.push(url);
   };
 
